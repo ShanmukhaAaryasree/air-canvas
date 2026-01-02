@@ -44,4 +44,68 @@ This project uses **OpenCV** for image processing and **MediaPipe Hand Tracking*
 ---
 
 ## 📂 Project Structure
+aircanvas/
+│
+├── air_canvas.py # Main application file
+├── .gitignore # Ignored files and folders
+├── venv/ # Virtual environment (not pushed to GitHub)
+└── README.md # Project documentation
 
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone <your-repo-link>
+cd aircanvas
+
+2️⃣ Create a virtual environment
+py -3.10 -m venv venv
+
+3️⃣ Activate the virtual environment
+
+Windows (PowerShell):
+
+.\venv\Scripts\activate
+
+4️⃣ Install required dependencies
+pip install opencv-python mediapipe==0.10.9 numpy
+
+5️⃣ Run the application
+python air_canvas.py
+
+📌 Use Cases
+
+Virtual whiteboard
+
+Touch-free drawing system
+
+Educational demonstrations
+
+Computer vision mini-project
+
+Gesture-controlled UI applications
+
+🎯 Learning Outcomes
+
+Understanding of real-time computer vision
+
+Hands-on experience with MediaPipe hand landmarks
+
+Gesture-based interaction design
+
+Integration of OpenCV with ML-based tracking
+
+🌟 Future Enhancements
+
+Save drawings as images
+
+Add more colors and brush sizes
+
+Gesture-based clear and save options
+
+Multi-hand support
+
+Improved UI and performance optimization
